@@ -27,7 +27,7 @@ for input in inputs:
     for string in input_list:
         number_list.append(int(string))
     number_list = [int(string) for string in input_list]
-    number_list = map(int, input_list)
+    number_list = list(map(int, input_list))
     a, x, b, c = number_list
     y = a*x*x + b*x + c
     print(y)
