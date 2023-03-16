@@ -21,8 +21,8 @@
 
 # Пример ввода -> вывода:
 inputs = [
-    ('19', '-1 -10 -8 0 2 0 5'),  # -> segment, 7
-    ('21', '1 2 5 4 8')           # -> jumps, 5
+    ('19', 'i love segment tree'),   # -> segment, 7
+    ('21', 'frog jumps from river')  # -> jumps, 5
 ]
 
 # тут ваше решение:
